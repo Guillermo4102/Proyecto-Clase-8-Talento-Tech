@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PáginasYPalabras</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="../img/logo.jpg" alt="logo" class="logo" />
+        <h1>Páginas Y Palabras</h1>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="../index.html">Volver a Inicio</a></li>
+                <li><a href="preguntasFrecuentes.html">Volver a Preguntas Frecuentes</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="tituloPaginas"><b>Formulario</b></h2>
+            <form action="https://formspree.io/f/mblrwyye" method="POST" class="formulario">
+                <fieldset>
+
+                    <Legend><u><b>Datos personales</b></u></Legend>
+                    <div class="containerConjunto">
+                        <label " for="">Nombre completo:</label>
+                        <input class=" inputFormulario" type="text" name="Nombre" id="" size="50" required><br><br>
+                    </div>
+                    <div class="containerConjunto">
+                        <label for="">Mail:</label>
+                        <input class="inputFormulario" type="email" name="Mail" id="" size="45" required><br><br>
+                    </div>
+                    <div class="containerConjunto">
+                        <label for="">Nombre de usuario:</label>
+                        <input class="inputFormulario" type="text" name="Usuario" id="" size="30">
+                    </div>
+                </fieldset>
+
+        <fieldset>
+            <legend><u><b>Consulta</b></u></legend>
+            <div class="containerConjunto">
+                <label for="">Tipo de consulta</label> 
+                <input class="inputFormulario" type="text" name="tipoConsulta" id="" size="20"><br><br>
+            </div>
+            <div class="containerConjunto">
+                <label for="">Centro de queja:</label><br>
+                <textarea class="textareaFormulario" name="centroDeQueja" id="" rows="10" cols="100"
+                    placeholder="Ingrese su consulta (max 300 caracteres)" required></textarea><br>
+            </div>
+            <div class="containerConjunto">
+                <label for="">Adjuntar foto (opcional)</label>
+                <input class="inputFormulario" type="file" name="foto" id="">
+            </div>
+
+        </fieldset>
+        <br>
+        <input type="reset" value="Borrar">
+        <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <div class="containerCreditos">
+            <a href="https://www.flaticon.es/iconos-gratis/gorjeo" title="gorjeo iconos" target="_blank">
+                Gorjeo iconos creados por Pixel perfect - Flaticon</a>
+            <p>© 2024 Guillermo Cobos. All Rights Reserved.</p>
+        </div>
+        <div>
+            <p>Mail:guillermo.cobos4102@gmail.com <br> Num celular: 11 5119-0929 <br> Redes Sociales:</p>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/logotipo-de-instagram.png"
+                    alt="Instagram" class="redesSociales"></a>
+            <a href="https://www.x.com" target="_blank"><img src="../img/gorjeo.png" alt="Twitter"
+                    class="redesSociales"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
